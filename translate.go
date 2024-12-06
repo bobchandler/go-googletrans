@@ -39,7 +39,7 @@ type sentence struct {
 
 type Translator struct {
 	host   string
-	client *http.Client
+	Client *http.Client
 	ta     *tokenAcquirer
 }
 
